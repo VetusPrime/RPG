@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseCharacterClass{
+public class BaseCharacterClass {
 
     private string characterClassName;
 
@@ -12,6 +12,7 @@ public class BaseCharacterClass{
     private int coordination;              //Dexterity, how well you can hit, use items, etc.
     private int judgement;                 //Intelligence, how you know when to hit and where, general intelligence
 
+    private int stamina;
     public string CharacterClassName
     {
         get { return characterClassName; }
@@ -36,5 +37,10 @@ public class BaseCharacterClass{
     {
         get { return judgement; }
         set { judgement = value; }
+    }
+    public int Stamina
+    {
+        get { return stamina; }
+        set { stamina = value; }
     }
 }

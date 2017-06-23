@@ -11,5 +11,6 @@ public class WarriorCharacter : BaseCharacterClass{
         Force = Random.Range(7, 15);
         Coordination = Random.Range(7, 15);
         Judgement = 1;
+        Stamina = 100;
     }
 }

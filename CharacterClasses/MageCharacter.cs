@@ -11,5 +11,6 @@ public class MageCharacter : BaseCharacterClass {
         Force = Random.Range(5, 10);
         Coordination = Random.Range(5, 10);
         Judgement = Random.Range(7, 15);
+        Stamina = 100;
     }
 }
